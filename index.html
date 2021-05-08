@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">Freecodecamp Responsive Web Design Project</p>
+	<form id="survey-form">
+		<div class="typed-inputs">
+			<label id="name-label" for="name">Name</label>
+			<input id="name" type="text" placeholder="Enter your Name" required />
+			<label id="email-label" for="email">Email</label>
+			<input id="email" type="email" placeholder="Enter your Email" required />
+			<label id="number-label" for="number">Age</label>
+			<input id="number" type="number" placeholder="Enter your Age" min="0" max="125" />
+		</div>
+		<div>
+			<label for="dropdown" id="dropdown-label">Do you like Cats?</label>
+			<select id="dropdown">
+				<option vlaue="">Pick an option</option>
+				<option>Yes</option>
+				<option>Of course I do</option>
+			</select>
+		</div>
+		<p class="label">Cats or dogs?</p>
+		<div>
+			<input type="radio" id="cats" name="pets" value="cats" checked>
+			<label for="cats">I prefer Cats</label>
+		</div>
+		<div>
+			<input type="radio" id="cats2" name="pets" value="cats2">
+			<label for="cats2">Cats are my favorite</label>
+		</div>
+		<p>Cats like:</p>
+		<div>
+			<input type="checkbox" id="chicken" value="chicken" name="food">
+			<label for="chicken">Chicken</label>
+		</div>
+		<div>
+			<input type="checkbox" id="salmon" value="salmon" name="food">
+			<label for="salmon">Salmon</label>
+		</div>
+		<div>
+			<input type="checkbox" id="beef" value="beef" name="food">
+			<label for="beef">Beef</label>
+		</div>
+		<label for="comment">Add additional comments</label>
+		<textarea id="comment"></textarea>
+		<div class="footer">
+			<button type="submit" id="submit">Submit</button>
+		</div>
+	</form>
+</body>
+
+</html>

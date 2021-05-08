@@ -1,0 +1,68 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #C9C9C9;
+}
+
+body {
+	display: grid;
+	place-items: center;
+  }
+
+#title {
+	font-size: 3em;
+}
+
+#description {
+	font-size: 1.5em;
+  }
+  
+input[type=email], input[type=number], input[type=text], select {
+	background-color: hsl(210, 9%, 96%);
+	border: none;
+	padding: 0.5em;
+	outline: none;
+}
+
+.typed-inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+.typed-inputs label, #dropdown-label, .label {
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.typed-inputs input, #dropdown {
+	margin: 0.5em 0;
+}
+
+#survey-form {
+	display: flex;
+	flex-direction: column;
+	width: 15em;
+	background-color: white;
+	box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.2);
+	border-radius: 20px;
+	padding: 2em;
+}
+
+#submit {
+	margin-top: 0.5em;
+	width: 5em;
+	align-self: flex-end;
+	border: none;
+	color: white;
+	background-color: #59a4df;
+	font-size: 1.2em;
+	border-radius: 3px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+}
